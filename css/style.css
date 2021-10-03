@@ -1,70 +1,111 @@
+:root {
+  --primary-color: rgb(143, 56, 56);
+  --background-color: black;
+  --secondary-color: rgb(107,88,88);
+  --text-color: white;
+}
+
+head {
+  display: none;
+}
+
+meta {
+  display: none;
+}
+
+meta {
+  display: none;
+}
+
+link {
+  display: none;
+}
+
+title {
+  display: none;
+}
+
+style {
+  display: none;
+}
+
 body {
-    color: #222222;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--primary-color);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: block;
+  margin: 8px;
 }
 
-.content-footer,
-.masthead-heading,
-.masthead-intro {
-  text-align: center;
+header {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-color: var(--secondary-color);
+  padding: 20px;
 }
 
-.masthead {
-  padding: 6em 0;
-  background-image: url('../img/code.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.masthead-intro {
-    margin-bottom: 0.1em;
-    font-size: 2em;
-    color: #ffffff;
-}
-
-.masthead-heading {
-    margin-top: -0.2em;
-    font-weight: bold;
-    font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.details {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-}
-
-.details > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
-}
-
-.details > h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 2em 0 1em 0;
-}
-
-section > h1 {
-    margin-top: 2em;
-}
-
-#footer {
-  padding: 20px 0;
-  text-align: center;
-  background-color: #111111;
-  text-decoration: none;
-}
-
-#footer a {
-  color: #ffffff;
-}
-.social > li {
+h1 {
   display: inline-block;
-  margin: 0 5px;
+  position: relative;
+  right: 20px;
+  font-size: 4em;
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+  background-size: 50px;
+  padding-left: 150px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-family: cursive;
+  margin-block-start: 0.65em;
+  margin-block-end: 0.65em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bolder;
 }
+
+header nav {
+  float: right;
+}
+
+nav {
+  display: block;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+}
+
+header ul li a {
+  font-size: 1.5em;
+  position: relative;
+  color: var(--background-color);
+  line-height: 120px;
+  font-family: cursive;
+  padding: 0px 30px 30px 40px;
+  text-decoration: underline black; 
+  cursor: pointer;
+}
+
+section {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+main {
+  display: block;
+}
+
